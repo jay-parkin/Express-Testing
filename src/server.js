@@ -9,7 +9,7 @@ const app = express();
 // serverIntance.verb(path, callback)
 app.get("/", (request, response) => {
   response.json({
-    message: "Hello World!",
+    message: "Hello world!",
   });
 });
 
